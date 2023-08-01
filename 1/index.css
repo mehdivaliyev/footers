@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+* body {
+  width: 1440px;
+  height: 620px;
+  background-image: url(../assets/pics/desktop-wallpaper-the-creation-of-adam-cloud-sky.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+@media (max-width: 575px) {
+  * body {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+}
+* .container {
+  padding: 80px 195px;
+}
+@media (max-width: 575px) {
+  * .container {
+    padding: 80px 10px;
+  }
+}
+* .container__navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+* .container__navbar :nth-child(1) {
+  margin-bottom: 48px;
+}
+@media (max-width: 575px) {
+  * .container__navbar :nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 575px) {
+  * .container__navbar {
+    width: auto;
+  }
+}
+* .container__navbar__elements__img {
+  border-radius: 50px;
+  height: 122px;
+  width: 122px;
+}
+* .container__navbar__elements__1st {
+  color: white;
+  font-size: 40px;
+}
+@media (max-width: 575px) {
+  * .container__navbar__elements__1st {
+    text-align: center;
+  }
+}
+* .container__navbar__elements__2nd {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+* .container__navbar__elements__3rd {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+@media (max-width: 575px) {
+  * .container__navbar__elements__3rd {
+    width: 190px;
+  }
+}
+* .container__navbar__elements__stars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}/*# sourceMappingURL=index.css.map */
